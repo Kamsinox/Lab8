@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: spg51/lab:lab8
+          images: kamsinox/lab8:gh_l80_example
 
       - name: Build and push Docker image
         id: docker_build
